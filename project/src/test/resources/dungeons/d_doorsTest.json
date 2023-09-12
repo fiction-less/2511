@@ -1,0 +1,51 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 3,
+            "y" : 4
+        }, 
+        {
+            "type" : "key",
+            "x" : 3,
+            "y" : 3,
+            "key" : 2
+        },
+        {
+            "type" : "key",
+            "x" : 4,
+            "y" : 2,
+            "key" : 3
+        },
+        {
+            "type" : "key",
+            "x" : 3,
+            "y" : 5,
+            "key" : 1
+        },
+        {
+            "type" : "door",
+            "x" : 3,
+            "y" : 6,
+            "key" : 1
+        },
+        {
+            "type" : "door",
+            "x" : 4,
+            "y" : 4,
+            "key" : 2
+        },
+        {
+            "type" : "door",
+            "x" : 4,
+            "y" : 3,
+            "key" : 3
+        },
+        {
+            "type": "exit",
+            "x": 2,
+            "y": 3
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

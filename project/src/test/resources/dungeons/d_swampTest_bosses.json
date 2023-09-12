@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "type" : "assassin",
+            "x" : 4,
+            "y" : 3
+        },
+        {
+            "type" : "hydra",
+            "x" : 5,
+            "y" : 2
+        },
+        {
+            "type" : "player",
+            "x" : 5,
+            "y" : 6
+        },
+        {
+            "type" : "wall",
+            "x" : 3,
+            "y" : 2
+        },
+        {
+            "type" : "wall",
+            "x" : 3,
+            "y" : 4
+        },
+        {
+            "type" : "wall",
+            "x" : 6,
+            "y" : 1
+        },
+        {
+            "type" : "wall",
+            "x" : 6,
+            "y" : 3
+        },
+        {
+            "type" : "wall",
+            "x" : 4,
+            "y" : 2
+        }, 
+        {
+            "type" : "wall",
+            "x" : 5,
+            "y" : 3
+        },
+        {
+            "type" : "wall",
+            "x" : 4,
+            "y" : 4
+        },
+        {
+            "type" : "wall",
+            "x" : 5,
+            "y" : 1
+        },
+        {
+            "type" : "swamp_tile",
+            "x" : 3,
+            "y" : 3,
+            "movement_factor" : 15
+        }, 
+        {
+            "type" : "swamp_tile",
+            "x" : 6,
+            "y" : 2,
+            "movement_factor" : 10
+        },
+        {
+            "type" : "swamp_tile",
+            "x" : 3,
+            "y" : 6,
+            "movement_factor" : 10
+        }, 
+        {
+            "type" : "boulder",
+            "x" : 4,
+            "y" : 6
+        }, 
+        {
+            "type": "exit",
+            "x": 1,
+            "y": 8
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

@@ -1,0 +1,23 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 1,
+            "y" : 1
+        },
+        {
+            "type": "mercenary",
+            "x": 2,
+            "y": 4
+        }, {
+            "type": "invisibility_potion",
+            "x": 2,
+            "y": 1
+        }, {
+            "type": "exit",
+            "x": 0,
+            "y": 300
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

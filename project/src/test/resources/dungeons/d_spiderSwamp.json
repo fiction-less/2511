@@ -1,0 +1,84 @@
+{
+    "entities": [
+        {
+            "type" : "spider",
+            "x" : 4,
+            "y" : 3
+        },
+        {
+            "type" : "player",
+            "x" : 5,
+            "y" : 6
+        },
+        {
+            "type" : "swamp_tile",
+            "x" : 4,
+            "y" : 2,
+            "movement_factor" : 2
+        }, 
+        {
+            "type" : "swamp_tile",
+            "x" : 5,
+            "y" : 3,
+            "movement_factor" : 2
+        },
+        {
+            "type" : "swamp_tile",
+            "x" : 4,
+            "y" : 4,
+            "movement_factor" : 2
+        },
+        {
+            "type" : "swamp_tile",
+            "x" : 3,
+            "y" : 3,
+            "movement_factor" : 2
+        },
+        {
+            "type" : "wall",
+            "x" : 4,
+            "y" : 1
+        },
+        {
+            "type" : "wall",
+            "x" : 5,
+            "y" : 2
+        },
+        {
+            "type" : "wall",
+            "x" : 3,
+            "y" : 2
+        },
+        {
+            "type" : "wall",
+            "x" : 2,
+            "y" : 3
+        },
+        {
+            "type" : "wall",
+            "x" : 6,
+            "y" : 3
+        },
+        {
+            "type" : "wall",
+            "x" : 3,
+            "y" : 4
+        },
+        {
+            "type" : "wall",
+            "x" : 5,
+            "y" : 4
+        },
+        {
+            "type" : "wall",
+            "x" : 4,
+            "y" : 5
+        },
+        {
+            "type": "exit",
+            "x": 1,
+            "y": 8
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

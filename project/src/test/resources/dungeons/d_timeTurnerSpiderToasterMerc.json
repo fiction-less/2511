@@ -1,0 +1,35 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 2,
+            "y" : 5
+        },
+        {
+            "type": "spider",
+            "x": 4,
+            "y": 5
+        }, {
+            "type": "exit",
+            "x": 10,
+            "y": 10
+        }, {
+            "type": "time_turner",
+            "x": 2,
+            "y": 3
+        }, {
+            "type": "time_turner",
+            "x": 7,
+            "y": 5
+        }, {
+            "type": "assassin",
+            "x": 4,
+            "y": 0
+        }, {
+            "type": "zombie_toast_spawner",
+            "x": 2,
+            "y": 1
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

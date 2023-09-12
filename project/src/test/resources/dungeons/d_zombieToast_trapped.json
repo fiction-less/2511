@@ -1,0 +1,43 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 8,
+            "y" : 4
+        }, {
+            "type" : "zombie_toast_spawner",
+            "x" : 4,
+            "y" : 4
+        }, {
+            "type": "boulder",
+            "x": 4,
+            "y": 5
+        }, {
+            "type": "boulder",
+            "x": 5,
+            "y": 4
+        }, {
+            "type": "boulder",
+            "x": 4,
+            "y": 3
+        }, {
+            "type": "boulder",
+            "x": 3,
+            "y": 3
+        }, {
+            "type": "boulder",
+            "x": 2,
+            "y": 4
+        }, {
+            "type": "boulder",
+            "x": 3,
+            "y": 5
+        }, {
+            "type": "exit",
+            "x": 30,
+            "y": 50
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}
+
